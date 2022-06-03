@@ -29,8 +29,8 @@ def resource_path(relative_path):
 # listener.start()  # start to listen on a separate thread# listener.join()  # remove if main thread is polling self.keys
 
 def on_press(key):
-    if key == keyboard.Key.esc:
-        exit()
+#    if key == keyboard.Key.esc:
+#        exit()
     try:
         k = key.char
     except:
